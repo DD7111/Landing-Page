@@ -43,9 +43,10 @@ body {
 }
 
 .headp {
+    margin-top: -50px;
     height:300px;
-    width:auto;
-
+    width:400px;
+    
 }
 
 .cimage {
@@ -75,11 +76,52 @@ body {
 }
 
 .info {
+    text-align: center;
+    padding:16px;
     width:100%;
     display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.title {
+    font-weight: 600;
+    margin:30px;
+    font-size:24px;
+}
+.container {
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+    gap:32px;
+}
+
+.cardimg {
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius:9px;
+    margin: auto;
+    padding-bottom:5px;
+    align-self:flex-start;
+}
+
+.card {
+    width:300px;
+    height: 300px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  }
+
+  .text {
+    align-self:flex-end;
+  }
+  
+
 .quote{
+    background-color: #E5E7EB;
     width:100%;
     display:flex;
 }
