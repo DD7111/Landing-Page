@@ -124,6 +124,26 @@ body {
     background-color: #E5E7EB;
     width:100%;
     display:flex;
+    justify-content: center;
+}
+
+.quotetxt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self:flex-end;
+}
+
+.qcontainer {
+    width:50%;
+    display:flex;
+    flex-direction:column;
 }
 
 .signup {
