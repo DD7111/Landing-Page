@@ -148,19 +148,57 @@ body {
 }
 
 .signup {
+    width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
 .signbox{
+    margin:100px;
+    border-radius: 8px;
+    height: 200px;
+    width:70%;
     color:white;
     background-color: #3882F6;
     display:flex;
+    justify-content: center;
     align-items: center;
+    gap:300px;
+}
+
+.signbtn{
+    background-color: #3882F6;
+    border-color: white;
+    border-style: solid;
+    color:white;
+    font-size:20px;
+    border-width:3px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width:150px;
+    height:50px;
+    align-self: center;
+}
+
+.action{
+    margin-top:-30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signtitle{
+    font-size: 36px;
+    font-weight:bold;
+}
+
+.signtxt {
+    font-size:24px;
 }
 
 .footer {
+    padding:50px;
     width: 100%;
     background-color: #1F2937;
     display: flex;
