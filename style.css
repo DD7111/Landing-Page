@@ -198,10 +198,15 @@ body {
 }
 
 .footer {
-    padding:50px;
+    padding:30px;
     width: 100%;
     background-color: #1F2937;
     display: flex;
+    justify-content: center;
+}
+
+.foot {
+    color:white;
 }
 
 ul {
